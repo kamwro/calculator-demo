@@ -1,0 +1,14 @@
+{
+  "name": "calculator-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Browser-based TypeScript calculator",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
