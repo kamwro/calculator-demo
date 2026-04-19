@@ -6,9 +6,12 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "serve": "npx serve ."
+    "serve": "npx serve .",
+    "test": "playwright test"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
     "typescript": "^5.4.0"
   }
 }
